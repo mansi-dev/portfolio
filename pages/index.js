@@ -11,7 +11,7 @@ import Contact from './contact'
 export default function Home() {
   return (
     <div className={styles.container}>
-      <ToolbarComp/>
+      {/* <ToolbarComp/> */}
       <About/>
       <Experience/>
       <Projects/>

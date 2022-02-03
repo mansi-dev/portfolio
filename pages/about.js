@@ -52,7 +52,7 @@ export const About = () => {
                         to keep myself up to date with the current technology trend. 
                         </p>
                     </div>
-                    <div>
+                    <div className={styles.coderImg}>
                     <Image src={coder}></Image>
 
                     </div>
