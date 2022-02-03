@@ -25,7 +25,7 @@ export const Experience = () => {
                         <div className={styles.paperHeader}>
 
                             <div className={styles.companyLogo}>
-                                <Avatar sx={{ backgroundColor: '#23272A', width: '80px', height: '80px', fontWeight: 300, fontFamily: 'Montserrat, sans-serif', lineHeight: 1.5, margin: '20px' }}>KPIT</Avatar>
+                                <Avatar sx={{ backgroundColor: '#23272A', width: '80px', height: '80px', fontWeight: 300, fontFamily: 'Montserrat, sans-serif !important', lineHeight: 1.5, margin: '20px' }}>KPIT</Avatar>
                             </div>
                             <div className={styles.jobTitle}>
 
@@ -57,7 +57,7 @@ export const Experience = () => {
                     <Paper elevation={3} className={styles.leftPaper}>
                         <div className={styles.paperHeader}>
                             <div className={styles.companyLogo}>
-                                <Avatar sx={{ backgroundColor: '#23272A', width: '80px', height: '80px', fontWeight: 300, fontFamily: 'Montserrat, sans-serif', lineHeight: 1.5, margin: '20px' }}>TOBU</Avatar>
+                                <Avatar sx={{ backgroundColor: '#23272A', width: '80px', height: '80px', fontWeight: 300, fontFamily: 'Montserrat, sans-serif !important', lineHeight: 1.5, margin: '20px' }}>TOBU</Avatar>
                             </div>
                             <div className={styles.jobTitle}>
 
