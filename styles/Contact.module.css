@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Dosis:wght@200&family=Montserrat:wght@100;200;300;400;700&family=Sora:wght@100;700&display=swap');
+
+.contactContainer{
+    background-color: #fff;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.leftContainer{
+    flex: 1 1;
+    padding: 5%;
+    flex-direction: revert;
+    display: flex;
+}
+
+.rightContainer{
+    flex: 1 1;
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    align-self: center;
+    height: inherit;
+    justify-content: center;
+}
+
+.txtfield{
+    margin-bottom: 15px;
+    width: 420px;
+}
+.companyName{
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0;
+    color: #23272A;
+    line-height: 1.5;
+    text-align: center;
+    padding: 8px;
+    text-transform: uppercase;
+}
+.sendBtn{
+    background-color: #23272A;
+}
+
+.sendBtn:hover{
+    background-color: #3C4348;
+}

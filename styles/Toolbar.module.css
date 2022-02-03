@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&family=Syne+Tactile&display=swap');
+
+.appBar{
+    background-color: white;
+    color: #23272A;
+}
+.logo{
+    font-family: 'Rowdies', cursive;
+    color: #23272A;
+}

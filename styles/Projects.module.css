@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Dosis:wght@200&family=Montserrat:wght@100;200;300;400;700&family=Sora:wght@100;700&display=swap');
+
+.projectscontainer{
+    background-color: #fff;
+}
+.title{
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0;
+    color: #23272A;
+    line-height: 1.5;
+    text-align: center;
+    padding: 8px;
+    text-transform: uppercase;
+}
+.imageContainer{
+    position: relative;
+    top: 40px;
+}
+
+.companyName{
+    font-size: 35px;
+}
+
+.leftPaper{
+    background-color: #23272A;
+    height: 315px;
+    width: 400px;
+    margin: 10px;
+}
+.rightContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projectName{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 300;
+}
+.projectName:hover{
+    cursor: pointer;
+
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.signContainer span{
+    height:231px !important;
+    border-radius: 4px;
+}
+.ecom{
+    margin-top: 20px;
+    background-color: #fff;
+}

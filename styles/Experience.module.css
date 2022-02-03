@@ -1,0 +1,41 @@
+.leftPaper{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.companyName{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0;
+}
+
+.jobRole{
+    font-weight: 300;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+.paperHeader{
+    display: flex;
+}
+.jobDesc{
+    display: flex;
+    flex-direction: column;
+}
+
+.jobDesc ul{
+    font-weight: 300;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+.skills{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.chip{
+    margin-left: 15px;
+    margin-top: 10px;
+}
