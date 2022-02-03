@@ -27,12 +27,12 @@
 }
 
 .txtfield{
-    margin-bottom: 15px;
+    margin-bottom: 15px !important;
     width: 420px;
 }
 .companyName{
     font-size: 35px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
     margin-bottom: 0;
     color: #23272A;
     line-height: 1.5;
@@ -41,9 +41,9 @@
     text-transform: uppercase;
 }
 .sendBtn{
-    background-color: #23272A;
+    background-color: #23272A !important;
 }
 
 .sendBtn:hover{
-    background-color: #3C4348;
+    background-color: #3C4348 !important;
 }
