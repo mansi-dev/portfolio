@@ -23,7 +23,7 @@
 }
 
 .leftPaper{
-    background-color: #23272A;
+    background-color: #23272A !important;
     height: 315px;
     width: 400px;
     margin: 10px;
@@ -39,16 +39,16 @@
 }
 
 .projectName{
-    color: #fff;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    font-weight: 300;
+    color: #fff !important;
+    font-family: 'Montserrat', sans-serif !important;
+    text-align: center !important;
+    font-weight: 300 !important;
 }
 .projectName:hover{
-    cursor: pointer;
+    cursor: pointer !important;
 
-    text-decoration: underline;
-    text-underline-offset: 5px;
+    text-decoration: underline !important;
+    text-underline-offset: 5px !important;
 }
 .signContainer span{
     height:231px !important;
