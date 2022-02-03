@@ -35,14 +35,11 @@ export const Experience = () => {
                         </div>
                         <div className={styles.jobDesc}>
                             <ul>
-                                <li> Lorem ipsum dolor sit amet,  Lorem ipsum dolor sit amet,  Lorem ipsum dolor sit amet</li>
-                                <li> Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet,  Lorem ipsum dolor sit amet  </li>
-                                <li> Lorem ipsum dolor sit amet,  Lorem ipsum dolor sit amet,  Lorem ipsum dolor sit amet</li>
-                                <li> Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet,  Lorem ipsum dolor sit amet  </li>
-                                <li> Lorem ipsum dolor sit amet,  Lorem ipsum dolor sit amet,  Lorem ipsum dolor sit amet</li>
-                                <li> Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet,  Lorem ipsum dolor sit amet  </li>
-                                <li> Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet,  Lorem ipsum dolor sit amet </li>
-                                <li> Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet,  Lorem ipsum dolor sit amet </li>
+                                <li> Implemented a solution to perform statistical analysis on git commits, that generate performance insights for managers and their team members using Python and PostgreSQL</li>
+                                <li> Developed an application for KPIT where managers can keep track of their team members productivity and discipline using ReactJS, NodeJS and Python </li>
+                                <li> Authored Jenkins CICD pipelines for continuous build & deployment and integrated Junit and SonarQube plugins in Jenkins for
+                                     automated testing and for Code quality check</li>
+                                <li> Used Kubernetes to orchestrate the deployment, scaling and management of Docker Containers </li>
                             </ul>
                         </div>
                         <div className={styles.skills}>
@@ -71,15 +68,10 @@ export const Experience = () => {
 
                         <div className={styles.jobDesc}>
                             <ul>
-                                <li> Lorem ipsum dolor sit amet,  Lorem ipsum dolor sit amet,  Lorem ipsum dolor sit amet</li>
-                                <li> Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet,  Lorem ipsum dolor sit amet  </li>
-                                <li> Lorem ipsum dolor sit amet,  Lorem ipsum dolor sit amet,  Lorem ipsum dolor sit amet</li>
-                                <li> Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet,  Lorem ipsum dolor sit amet  </li>
-                                <li> Lorem ipsum dolor sit amet,  Lorem ipsum dolor sit amet,  Lorem ipsum dolor sit amet</li>
-                                <li> Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet,  Lorem ipsum dolor sit amet  </li>
-                                <li> Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet,  Lorem ipsum dolor sit amet </li>
-                                <li> Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet,  Lorem ipsum dolor sit amet </li>
-
+                                <li> Designed and developed Career Page for TOBU to allow employers easily devise job openings and manage 1000s of resumes</li>
+                                <li> Migrated TOBU application from AngularJS to Angular, improved the speed and performance of the application by 40%  </li>
+                                <li> Implemented a resume parser, which will parse the entire resume and store the details on TOBU server </li>
+                                <li> Created and maintained SQL procedures to ensure smooth working of the application</li>
                             </ul>
                         </div>
                         <div className={styles.skills}>
@@ -88,7 +80,6 @@ export const Experience = () => {
                             <Chip label="JQuery" className={styles.chip} />
                             <Chip label="JavaScript" className={styles.chip} />
                             <Chip label="Angular" className={styles.chip} />
-                            <Chip label="AJAX" className={styles.chip} />
                             <Chip label="Redis" className={styles.chip} />
                             <Chip label="SQL" className={styles.chip} />
 
