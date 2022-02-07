@@ -6,6 +6,7 @@ import About from './about'
 import Experience from './experience'
 import Projects from './projects'
 import Contact from './contact'
+import Education from './education'
 
 
 export default function Home() {
@@ -15,7 +16,10 @@ export default function Home() {
       <About/>
       <Experience/>
       <Projects/>
+      <Education/>
+
       <Contact/>
+
       <footer className={styles.footer}>
         <p>© Copyright 2022 Mansi Zope</p>
       </footer>

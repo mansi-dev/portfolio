@@ -5,7 +5,7 @@ import styles from '../styles/Projects.module.css';
 import signLanguage from '../public/signlanguage.png';
 import newspoint from '../public/newspoint.png';
 import bloodbank from '../public/bloodbank.png';
-import ecommerce from '../public/ecommerce.svg';
+import ecommerce from '../public/ecommerce.png';
 import scraper from '../public/scraper.svg';
 
 
