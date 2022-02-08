@@ -40,7 +40,7 @@ export const Projects = () => {
                             </div>
                         </Paper>
                         <Paper elevation={3} className={styles.leftPaper}>
-                            <h3 className={styles.projectName}>Job Portal Scraper</h3>
+                            <h3 className={styles.projectName}  onClick={()=>window.location.href ='https://github.com/mansi-dev/web-scraper'}>Job Portal Scraper</h3>
                             <div className={styles.signContainer}>
                                 <Image src={scraper}></Image>
 
