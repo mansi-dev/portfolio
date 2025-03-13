@@ -25,7 +25,7 @@ export const Experience = () => {
                         <div className={styles.paperHeader}>
 
                             <div className={styles.companyLogo}>
-                                <Avatar sx={{ backgroundColor: '#23272A', width: '80px', height: '80px', fontWeight: 300, fontFamily: 'Montserrat, sans-serif !important', lineHeight: 1.5, margin: '20px' }}>Fidelity Investments</Avatar>
+                                <Avatar sx={{ backgroundColor: '#23272A', width: '80px', height: '80px', fontWeight: 300, fontFamily: 'Montserrat, sans-serif !important', lineHeight: 1.5, margin: '20px' }}>Fidelity</Avatar>
                             </div>
                             <div className={styles.jobTitle}>
 
@@ -60,7 +60,46 @@ data sources and their attributes, improving usability and reducing data managem
 
                         </div>
                     </Paper>
-                                         
+
+    <Paper elevation={3} className={styles.leftPaper}>
+                        <div className={styles.paperHeader}>
+                            <div className={styles.companyLogo}>
+                                <Avatar sx={{ backgroundColor: '#23272A', width: '80px', height: '80px', fontWeight: 300, fontFamily: 'Montserrat, sans-serif !important', lineHeight: 1.5, margin: '20px' }}>Fidelity</Avatar>
+                            </div>
+                            <div className={styles.jobTitle}>
+
+                                <h1 className={styles.companyName}>Fidelity Investments </h1>
+                                <p className={styles.jobRole}>Software Engineer Intern, Jul. 2022 - Dec. 2022</p>
+                            </div>
+                        </div>
+
+                        <div className={styles.jobDesc}>
+                            <ul>
+                                <li> Developed Helm charts for packaging and versioning Kubernetes applications, facilitating easy deployment,
+rollback, and scalability, resulting in a 30% increase in development velocity </li>
+                                <li> Integrated HashiCorp Vault for secrets management within Kubernetes environments, ensuring secure storage and
+dynamic retrieval of sensitive credentials, enhancing overall system security and compliance </li>
+                                <li> Built and maintained 15+ secured REST APIs in Spring Boot to help accelerate processing of customer
+transactions </li>
+                                <li> Optimized REST APIs to cache data leveraging Redis and achieved 25% faster computation time </li>
+    <li> Collaborated with business stakeholders to get requirements, assess feasibility of suggested features and devise 10+
+integrated modules </li>
+                            </ul>
+                        </div>
+                        <div className={styles.skills}>
+                            <Chip label="Java" className={styles.chip} />
+                            <Chip label="Spring Boot" className={styles.chip} />
+                            <Chip label="Angular" className={styles.chip} />
+                            <Chip label="SQL" className={styles.chip} />
+                            <Chip label="AWS EKS" className={styles.chip} />
+                            <Chip label="Helm" className={styles.chip} />
+                            <Chip label="Docker" className={styles.chip} />
+                            <Chip label="Kubernetes" className={styles.chip} />
+                            <Chip label="Jenkins" className={styles.chip} />
+
+                        </div>
+                    </Paper>
+    
 
                     <Paper elevation={3} className={styles.leftPaper}>
                         <div className={styles.paperHeader}>
@@ -95,37 +134,7 @@ data sources and their attributes, improving usability and reducing data managem
 
                         </div>
                     </Paper>
-                    <Paper elevation={3} className={styles.leftPaper}>
-                        <div className={styles.paperHeader}>
-                            <div className={styles.companyLogo}>
-                                <Avatar sx={{ backgroundColor: '#23272A', width: '80px', height: '80px', fontWeight: 300, fontFamily: 'Montserrat, sans-serif !important', lineHeight: 1.5, margin: '20px' }}>TOBU</Avatar>
-                            </div>
-                            <div className={styles.jobTitle}>
-
-                                <h1 className={styles.companyName}>EdWave, Pune </h1>
-                                <p className={styles.jobRole}>Frontend Developer, Oct 2016 - Apr 2017</p>
-                            </div>
-                        </div>
-
-                        <div className={styles.jobDesc}>
-                            <ul>
-                                <li> Designed and developed Career Page for TOBU to allow employers easily devise job openings and manage 1000s of resumes</li>
-                                <li> Migrated TOBU application from AngularJS to Angular, improved the speed and performance of the application by 40%  </li>
-                                <li> Implemented a resume parser, which will parse the entire resume and store the details on TOBU server </li>
-                                <li> Created and maintained SQL procedures to ensure smooth working of the application</li>
-                            </ul>
-                        </div>
-                        <div className={styles.skills}>
-                            <Chip label="HTML5" className={styles.chip} />
-                            <Chip label="CSS" className={styles.chip} />
-                            <Chip label="JQuery" className={styles.chip} />
-                            <Chip label="JavaScript" className={styles.chip} />
-                            <Chip label="Angular" className={styles.chip} />
-                            <Chip label="Redis" className={styles.chip} />
-                            <Chip label="SQL" className={styles.chip} />
-
-                        </div>
-                    </Paper>
+                    
                 </Box>
             </div>
         </div>
