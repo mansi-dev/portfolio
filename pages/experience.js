@@ -33,6 +33,7 @@ export const Experience = () => {
                                 <p className={styles.jobRole}>Software Engineer, May 2023 - Present</p>
                             </div>
                         </div>
+    <br/>
                         <div className={styles.jobDesc}>
                             <ul>
                                 <li> Implemented Kubernetes deployments for microservices architecture leveraging Docker for containerization,
@@ -72,7 +73,7 @@ data sources and their attributes, improving usability and reducing data managem
                                 <p className={styles.jobRole}>Software Engineer Intern, Jul. 2022 - Dec. 2022</p>
                             </div>
                         </div>
-
+ <br/>
                         <div className={styles.jobDesc}>
                             <ul>
                                 <li> Developed Helm charts for packaging and versioning Kubernetes applications, facilitating easy deployment,
@@ -113,6 +114,7 @@ integrated modules </li>
                                 <p className={styles.jobRole}>Software Engineer, Feb 2018 - Aug 2021</p>
                             </div>
                         </div>
+     <br/>
                         <div className={styles.jobDesc}>
                             <ul>
                                 <li> Implemented a solution to perform statistical analysis on git commits, that generate performance insights for managers and their team members using Python and PostgreSQL</li>
