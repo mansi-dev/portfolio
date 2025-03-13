@@ -20,6 +20,47 @@ export const Experience = () => {
                         p: 1,
                     },
                 }}>
+    
+     <Paper elevation={3} className={styles.leftPaper}>
+                        <div className={styles.paperHeader}>
+
+                            <div className={styles.companyLogo}>
+                                <Avatar sx={{ backgroundColor: '#23272A', width: '80px', height: '80px', fontWeight: 300, fontFamily: 'Montserrat, sans-serif !important', lineHeight: 1.5, margin: '20px' }}>Fidelity Investments</Avatar>
+                            </div>
+                            <div className={styles.jobTitle}>
+
+                                <h1 className={styles.companyName}>Fidelity Investments</h1>
+                                <p className={styles.jobRole}>Software Engineer, May 2023 - Present</p>
+                            </div>
+                        </div>
+                        <div className={styles.jobDesc}>
+                            <ul>
+                                <li> Implemented Kubernetes deployments for microservices architecture leveraging Docker for containerization,
+optimizing scalability and resource management </li>
+                                <li> Optimized application performance on Kubernetes, fine-tuning resource allocation, and container configurations,
+resulting in a 30% reduction in infrastructure costs </li>
+                                <li> Led the successful migration of a critical production application from Amazon ECS to EKS, ensuring a seamless
+transition, zero downtime, and enhancing application performance by 40% </li>
+                                <li> Developed comprehensive audit logging mechanisms for REST APIs in Spring Boot, enhancing traceability and
+accountability </li>
+    <li> Designed and implemented user-friendly screens using Angular within Fidelity’s Admin application for managing
+data sources and their attributes, improving usability and reducing data management time by 30% </li>
+                            </ul>
+                        </div>
+                        <div className={styles.skills}>
+                            <Chip label="Java" className={styles.chip} />
+                            <Chip label="Spring Boot" className={styles.chip} />
+                            <Chip label="Angular" className={styles.chip} />
+                            <Chip label="SQL" className={styles.chip} />
+                            <Chip label="AWS EKS" className={styles.chip} />
+                            <Chip label="Helm" className={styles.chip} />
+                            <Chip label="Docker" className={styles.chip} />
+                            <Chip label="Kubernetes" className={styles.chip} />
+                            <Chip label="Jenkins" className={styles.chip} />
+
+                        </div>
+                    </Paper>
+                                         
 
                     <Paper elevation={3} className={styles.leftPaper}>
                         <div className={styles.paperHeader}>
