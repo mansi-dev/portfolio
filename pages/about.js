@@ -47,7 +47,7 @@ export const About = () => {
                         <h1 className={styles.name}>Mansi Zope</h1>
 
                         <p className={styles.desc}>
-                        A technology enthusiast with 3+ years of industry experience as a software developer. I am passionate about 
+                        A technology enthusiast with 4+ years of industry experience as a Software Engineer. I am passionate about 
                         designing and building software products that would be helpful in solving real world issues. I enjoy learning and experimenting new things 
                         to keep myself up to date with the current technology trend. 
                         </p>
